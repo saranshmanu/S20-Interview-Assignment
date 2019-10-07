@@ -8,6 +8,7 @@ kwargs = {
     "host": "localhost",
     "port": 8779,
     "hook": hook,
+    "verbose": True
 }
 
 server = WebsocketServerWorker(**kwargs)

@@ -8,7 +8,9 @@ kwargs = {
     "host": "localhost",
     "port": 8778,
     "hook": hook,
+    "verbose": True
 }
 
 server = WebsocketServerWorker(**kwargs)
-server.start()
+print(server.start())
+print(server.list_objects())
